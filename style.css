@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+.navi ul {
+    display: inline-block;
+    text-align: right;
+    width: 80%;
+}
+
+.navi li {
+    display: inline-block;
+    padding: 30px;
+}
+
+.navi li a {
+    text-decoration: none;
+    color: red;
+    /* text-shadow: 2px 2px #FF0000; */
+}
+
+.navi h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 45px;
+    width: 20%;
+    text-align: center;
+    color: red;
+    display: inline-block;
+    padding-left: 180px;
+}
+
+.navi {
+    background-color: rgb(15, 15, 15);
+    font-family: 'Shantell Sans', cursive;
+    font-size: 18px;
+    display: flex;
+    color: black;
+    height: 4rem;
+    width: 100%;
+    text-align: left;
+    /* text-shadow: 4px #060047; */
+}
+
+.navi li a:hover {
+    border-radius: 9px;
+    background-color: #ECF9FF;
+}
+
+hr {
+    border-top-style: dotted;
+    border-color: rgb(64, 226, 43);
+    border-width: 5px;
+    width: 5%;
+    margin: 100px auto;
+    border-bottom: none;
+}
+
+.first-con {
+    position: relative;
+    /* padding-top: 68px; */
+    height: 50%;
+    background-color: aquamarine;
+}
+
+h1 {
+    font-family: 'Shantell Sans', cursive;
+    width: 10%;
+    font-size: 27px;
+    margin: auto;
+    color: #A84448;
+}
+
+.first-con h2 {
+    font-family: 'Sacramento', cursive;
+    font-size: 60px;
+    color: #655DBB;
+}
+
+p {
+    font-family: 'Shantell Sans', cursive;
+    font-size: 18px;
+    color: #655DBB;
+    line-height: 2;
+}
+
+.bottom-cloud {
+    position: absolute;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 250px;
+    top: 120px;
+}
+
+.profile {
+    width: 80%;
+    margin: auto;
+}
+
+.profile h2 {
+    font-family: 'Labrada', serif;
+    font-size: 30px;
+}
+
+.my {
+    height: 50%;
+    width: 25%;
+    border: 5px solid black;
+    float: left;
+    margin-top: 60px;
+    margin-right: 5%;
+    margin-bottom: 140px;
+}
+
+.profile {
+    background-color: #FFE7CC;
+}
+
+.profile h2 {
+    color: #A84448;
+}
+
+.profile p {
+    color: #060047;
+}
+
+.prointro {
+    height: 400px;
+    padding: 5%;
+}
+
+.education {
+    margin: auto;
+    width: 80%;
+    background-color: #F6F7C1;
+    font-family: 'Labrada', serif;
+    font-size: 20px;
+    color: #400E32;
+}
+
+.education table,
+th,
+td {
+    border: 3px solid black;
+}
+
+.education th,
+td {
+    padding: 25px;
+}
+
+.skill-row {
+    background-color: #F7C04A;
+}
+
+.skill-row {
+    width: 80%;
+    height: 40%;
+    margin: auto;
+    text-align: left;
+}
+
+.skill-row h2 {
+    text-align: center;
+    color: #ECF9FF;
+}
+
+.skills h3 {
+    color: #655DBB;
+}
+
+.skills p {
+    color: #060047;
+}
+
+.c {
+    padding: 40px;
+    height: 160px;
+}
+
+.clan {
+    border: 4px solid white;
+    float: left;
+    width: 20%;
+    margin-right: 5%;
+}
+
+.python {
+    padding: 40px;
+}
+
+.pythonlan {
+    border: 4px solid black;
+    width: 20%;
+    float: right;
+    margin-left: 5%;
+}
+
+.java {
+    padding: 40px;
+}
+
+.javalan {
+    border: 4px solid white;
+    float: left;
+    width: 20%;
+    margin-right: 5%;
+}
+
+.web {
+    padding: 60px;
+}
+
+.weblan {
+    border: 4px solid black;
+    width: 28%;
+    float: right;
+    margin-left: 5%;
+}
+
+.skills h2 {
+    font-family: 'Labrada', serif;
+    font-size: 30px;
+}
+
+.c h3 {
+    font-family: 'Labrada', serif;
+    font-size: 30px;
+}
+
+.python h3 {
+    font-family: 'Labrada', serif;
+    font-size: 30px;
+}
+
+.java h3 {
+    font-family: 'Labrada', serif;
+    font-size: 30px;
+}
+
+.web h3 {
+    font-family: 'Labrada', serif;
+    font-size: 30px;
+}
+
+.hobb {
+    margin: auto;
+    width: 80%;
+    background-color: burlywood;
+}
+
+.hobb h2 {
+    font-family: 'Labrada', serif;
+    font-size: 30px;
+    color: #00425A;
+}
+
+.hobb img {
+    border: 2px solid black;
+    opacity: 1;
+}
+
+.hobb img:hover {
+    opacity: 0.5;
+}
+
+.fo {
+    height: 290px;
+    width: 45.5%;
+    background-color: #a7bb5d;
+    margin-left: 52.5%;
+}
+
+.fo img {
+    margin-top: 30px;
+}
+
+.fo p {
+    color: #ECF9FF;
+}
+
+.fo:hover {
+    background-color: #655DBB;
+}
+
+.contact-me {
+    background-color: #FFD4D4;
+    margin: auto;
+    width: 80%;
+}
+
+.contact-me h2 {
+    color: #400E32;
+}
+
+.contact-me h3 {
+    color: #655DBB;
+}
+
+.bottom-con {
+    padding: 35px;
+    background-color: aquamarine;
+}
+
+.bottom-con p {
+    color: black;
+}
+
+.bottom-con img {
+    height: 37px;
+    width: 36px;
+    margin: 0, 20px;
+    border-radius: 18px;
+}
+
+.btn {
+    font-family: 'Labrada', serif;
+    ;
+}
+
+.bottom-con img {
+    margin: 20px;
+}
+
+.foot-insta img:hover {
+    background-color: rgba(240, 7, 31, 0.875);
+}
+
+.foot-facebook img:hover {
+    background-color: rgb(0, 110, 255);
+}
+
+.foot-link img:hover {
+    background-color: aqua;
+}
+
+.foot-github img:hover {
+    background-color: grey;
+}
+
+.contact-me h2,h3 {
+    font-family: 'Labrada', serif;
+}
+.btn button{
+    color: white;
+    height: 38px;
+    width: 126px;
+    border-radius: 8px;
+    font-family: 'Sans-serif';
+    font-size: 20px;
+}
+.face{
+      background-color: #3E54AC;
+      color: white;
+}
+.in{
+    background-color: #DF2E38;
+    color: white;
+}
+.li{
+    background-color: #3795BD;
+    color: white;
+}
+.gi{
+    background-color: black;
+    color: white;
+}
+.btn button:hover {
+    background-color: #F0A04B;
+}
+
+.bottom-con p:hover {
+    color: aliceblue;
+}
